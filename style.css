@@ -1,0 +1,150 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+header {
+    display: flex ;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between ;
+    /* align-content: center; */
+    align-items: center;
+}
+header img {
+    
+    max-width: 122px;
+    height: 94px;
+    color: #000000;
+    justify-content:  space-between;
+}
+nav {
+    width :50%
+}
+.containerUl {
+    align-items: center;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.container li {
+    width: 100%;
+}
+.background-img1 {
+    width: 90%;
+     margin: 0 auto; 
+     
+}
+.background-img1 img {
+    width: 100%;
+}
+.saitebi h1 {
+    margin-left: 50px;
+  
+    font-size: 40px;
+}
+.saitebi {
+    /* padding-top: 100px; */
+    width: 90%;
+   margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.statiebi, .LastSection {
+    /* padding-top: 40px; */
+    width: 100% ;
+    /* height: 686px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+    /* background-color: blue; */
+}
+.statia1, .statia2, .statia3 {
+    width: 483px;
+    height: 563px;  
+    /* background-color: black;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.finishing {
+    width: 90% ;
+    
+  
+    margin: 0 auto;
+
+
+}
+
+.LastUpdates{
+    /* display: flex; */
+    margin-left: 50px;  
+    font-size: 40px;
+    
+}
+
+.statia1-h1,.statia2-h1, .statia3-h1, .LastSection-1, .LastSection-2, .LastSection-3{
+    color: black;
+    /* width: 282px;
+    height: 40px; */
+    /* font-size: 30px; */
+    display: flex;
+    width: 483px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.LoadMore {
+    
+    align-items: center;
+    border-bottom: 1px;
+    
+}
+
+.statiebi img {
+    width: 100%;
+}
+.LoadMore h4 {
+    text-align: center;
+    border-bottom: 3px black solid;
+}
+h6 {
+    margin-left: 90%;
+   
+}
+
+footer {
+    width: 100%;
+    /* height: 207px; */
+    background-color:#2E2E2E ;
+    display: flex;
+    justify-content: space-between;
+}
+.footeri {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 1920px){
+    header {
+        background-color: gold;
+    }
+}
+
+@media (max-width: 480px){
+    nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}
